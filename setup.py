@@ -8,8 +8,8 @@ NAME = "foo"
 
 install_requires = []
 
-tests_requires = ["pytest", "pytest-cov", "numpy"]
-style_requires = ["flake8", "wemake-python-styleguide", "mypy", "black==19.3b0"]
+tests_requires = ["pytest", "numpy"]
+style_requires = ["flake8", ]
 dev_requires = tests_requires + style_requires
 
 setup(
